@@ -5,10 +5,10 @@
   font-family: "Poppins", sans-serif;
 }
 
-/* FUNDO PROFISSIONAL (NÃO É MAIS PRETO CHAPADO) */
+/* FUNDO CLARO E PROFISSIONAL (NÃO PRETO) */
 body {
-  background: linear-gradient(180deg, #0b0f14, #121a22);
-  color: white;
+  background: #f3f5f7;
+  color: #1a1a1a;
 }
 
 /* NAVBAR */
@@ -16,17 +16,17 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 20px 10%;
-  background: #0b0f14;
-  border-bottom: 2px solid #ff7b00;
+  background: white;
+  border-bottom: 3px solid #ff7b00;
 }
 
 .navbar h1 {
   font-weight: 800;
-  letter-spacing: 1px;
+  color: #1a1a1a;
 }
 
 .navbar a {
-  color: #e0e0e0;
+  color: #333;
   text-decoration: none;
   margin-left: 20px;
   transition: 0.3s;
@@ -36,10 +36,10 @@ body {
   color: #ff7b00;
 }
 
-/* HERO LIMPO (SEM IMAGEM) */
+/* HERO LIMPO E CLARO */
 .hero {
   padding: 110px 10%;
-  text-align: left;
+  background: linear-gradient(180deg, #ffffff, #e6ebef);
 }
 
 .hero-content {
@@ -50,6 +50,7 @@ body {
   font-size: 70px;
   font-weight: 800;
   line-height: 1.05;
+  color: #1a1a1a;
 }
 
 .hero span {
@@ -59,17 +60,16 @@ body {
 .hero p {
   margin-top: 15px;
   font-size: 20px;
-  color: #d0d0d0;
-  max-width: 650px;
+  color: #555;
 }
 
-/* BOTÃO */
+/* BOTÕES */
 .btn {
   display: inline-block;
   margin-top: 25px;
   padding: 12px 28px;
   background: #ff7b00;
-  color: black;
+  color: white;
   text-decoration: none;
   border-radius: 6px;
   font-weight: bold;
@@ -80,23 +80,27 @@ body {
   background: #ff9a33;
 }
 
-/* LINHA LARANJA DISCRETA ENTRE SEÇÕES */
-.divider {
-  height: 2px;
-  background: linear-gradient(90deg, transparent, #ff7b00, transparent);
-  margin: 40px 0;
+.btn-small {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 8px 18px;
+  background: #ff7b00;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
 }
 
 /* SEÇÕES */
 .section {
-  padding: 60px 10%;
-  background: #10161d;
+  padding: 70px 10%;
+  background: white;
   text-align: center;
 }
 
-.section-dark {
-  padding: 60px 10%;
-  background: #0b0f14;
+.section-alt {
+  padding: 70px 10%;
+  background: #eef2f5;
   text-align: center;
 }
 
@@ -110,22 +114,23 @@ body {
 
 /* CARDS */
 .card, .review {
-  background: #141c24;
+  background: white;
   padding: 20px;
   border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
   transition: 0.3s;
 }
 
 .card:hover, .review:hover {
   transform: translateY(-5px);
-  box-shadow: 0 0 15px rgba(255, 123, 0, 0.15);
 }
 
 /* RODAPÉ */
 footer {
   text-align: center;
-  padding: 20px;
-  background: #0b0f14;
+  padding: 25px;
+  background: #1a1a1a;
+  color: white;
 }
 
 /* RESPONSIVO */
