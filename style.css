@@ -1,0 +1,155 @@
+/* ====== RESET E BASE ====== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #0f0f0f;
+    color: white;
+}
+
+/* ====== CONTAINER ====== */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* ====== HEADER ====== */
+.header {
+    background: black;
+    padding: 15px 0;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav ul li {
+    margin-left: 25px;
+}
+
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* ====== HERO (IMAGEM DA SILHUETA) ====== */
+.hero {
+    width: 100%;
+    height: 90vh;
+    background: url("images/silhueta-treino.png") center/cover no-repeat;
+    position: relative;
+}
+
+.hero-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.65);
+    display: flex;
+    align-items: center;
+}
+
+.hero-content {
+    padding-left: 80px;
+    max-width: 650px;
+}
+
+.hero h1 {
+    font-size: 60px;
+    color: white;
+}
+
+.hero h1 span {
+    color: #ff7b00;
+}
+
+.hero p {
+    font-size: 22px;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+/* ====== BOTÃO LARANJA ====== */
+.btn {
+    display: inline-block;
+    background: #ff7b00;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 6px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* ====== FAIXA ESCURA ABAIXO ====== */
+.call-to-action {
+    background: #1e1e1e;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.call-to-action h2 {
+    color: #ff7b00;
+}
+
+/* ====== EBOOKS ====== */
+.ebooks {
+    background: #121212;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.ebook-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.ebook-item {
+    background: #1e1e1e;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* ====== DEPOIMENTOS ====== */
+.testimonials {
+    background: #0f0f0f;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.testimonial-item {
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* ====== RODAPÉ ====== */
+.footer {
+    background: black;
+    text-align: center;
+    padding: 30px 0;
+}
